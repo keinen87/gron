@@ -1,4 +1,3 @@
-#import re
 package main
 
 import (
