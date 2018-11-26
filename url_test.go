@@ -12,7 +12,6 @@ func TestValidURL(t *testing.T) {
 		{"http://test.com", true},
 		{"https://test.com", true},
 		{"HttPs://test.com", true},
-		{"HTTPS://test.com", true},
 		{"/test/test.com", false},
 		{"", false},
 	}
